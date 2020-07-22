@@ -1,0 +1,102 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: arial,sans-serif;
+  background: #ececec;
+}
+.team{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  display: flex;
+}
+.member{
+  background: #fff;
+  width: 260px;
+  margin: 0 25px;
+  text-align: center;
+}
+.member img{
+  width: 70%;
+  border-radius: 50%;
+  position: relative;
+  top: -70px;
+}
+.member h1{
+  text-transform: uppercase;
+  font-size: 28px;
+  margin-top: -45px;
+  margin-bottom: 25px;
+  color:indianred;
+}
+.member h3{
+  margin-top: -10px;
+}
+.member p{
+  text-align: justify;
+  margin-top: -7px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-style: revert;
+}
+i.fab{
+    font-size: 23px;
+    border-radius: 50%;
+    margin-top: 13px;
+    padding-left: 25px;
+    transition: 0.5s;
+}
+i.fab:hover{
+  color: #a42121;
+}
+.iconbtnn{
+  margin-top: 35px;
+
+}
+.btn{
+  display: block;
+  text-decoration: none;
+  background:#b72525;
+  color:#fff;
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 1.5px;
+  transition: 0.5s;
+  box-sizing: border-box 10px;
+  height: 35px;
+  padding-top: 20px;
+}
+.btn:hover{
+  background: #7296F9;
+}
+@media only screen and (max-width:480px){
+   .team{
+     flex-wrap: wrap;
+     height: 50px;
+  }
+  .member img{
+    width: 45%;
+    border-radius: 50%;
+    position: relative;
+    top: 0px;
+  }
+  .member h1{
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    color:indianred;
+  }
+  i.fab{
+      font-size: 18px;
+      border-radius: 50%;
+      margin-top: 5px;
+      padding-left: 20px;
+      transition: 0.5s;
+  }
+  .iconbtnn{
+    margin-top: 30px;
+  }
+
+}
